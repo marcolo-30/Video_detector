@@ -1,0 +1,7 @@
+__pycache__/
+yolo11n.pt
+Videos/
+*.mp4
+output
+.idea/
+pipeline_metrics.png
