@@ -102,15 +102,15 @@ Images can be repeated randomly across the video but never appear twice in a row
 ## Installation
 
 ```bash
-git clone https://github.com/<your-username>/video-from-images.git
-cd video-from-images
+[git clone https://github.com/marcolo-30/Video_detector.git](https://github.com/marcolo-30/Video_detector.git)
+cd Video_detector/videogen/
 pip install opencv-python
 ```
 
 ## Usage
 
 ```bash
-python make_video_nonadjacent.py   --images-dir ./images   --output ./output.mp4   --fps 30   --duration 60   --shot-sec 0.5   --size 640x480   --mode random   --seed 42
+python make_video_from_images.py   --images-dir ./images   --output ./output.mp4   --fps 30   --duration 60   --shot-sec 0.5   --size 640x480   --mode random   --seed 42
 ```
 
 ### Parameters
@@ -132,7 +132,7 @@ python make_video_nonadjacent.py   --images-dir ./images   --output ./output.mp4
 Generate a 640×480, 60-second video from `./frames`:
 
 ```bash
-python make_video_nonadjacent.py --images-dir ./frames --output video.mp4 --size 640x480
+python make_video_from_images.py --images-dir ./frames --output video.mp4 --size 640x480
 ```
 
 ---
